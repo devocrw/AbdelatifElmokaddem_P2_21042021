@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Reservia</title>
+  <link rel="stylesheet" href="" integrity="" crossorigin="">
+</head>
+
+<body>
+  <header>
+    <div>
+      
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href=""</a></li>
+        <li><a href=""</a></li>
+      </ul>
+      <button></button>
+    </nav>
+  </header>
+
+
+  <section>
+    <h1></h1>
+    <p></p>
+
+    <div>  
+      <input type="text"/>
+
+      <button></button>
+    </div>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+
+
+    <p></p>
+
+
+  </section>
+
+  <section>
+    <h2></h2>
+  </section>
+  <p></p>
+
+  <section>
+    <h2></h2>
+  </section>
+
+  <section>
+    <h2></h2>
+  </section>
+
+  <footer>
+
+    <section>
+      <h3></h3>
+    </section>
+
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      </li>
+    </ul>
+
+    <section>
+      <h3></h3>
+    </section>
+
+    <ul>
+      <li><a href=""></a> </li>
+      <li> <a href=""></a></li>
+    </ul>
+
+    <section>
+      <h3></h3>
+    </section>
+
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+
+  </footer>
+
+
+</body>
+
+
+
+
+
+</html>
