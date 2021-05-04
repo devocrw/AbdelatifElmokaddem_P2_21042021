@@ -2,16 +2,13 @@ body {font-family: 'Raleway', sans-serif;
 
 }	
 /* Header */
-nav { display : flex ;
-    justify-content: space-between;
-    align-items: center;
 
-}
-
-nav ul {display: flex;
-list-style: none;
-}
-
-nav li{
-    margin:0 10px 0 20px;
+.linkcontainer 
+{
+    float: right;
+    margin-right: 0 10 0 20px
+    
+    
+     
+    
 }
