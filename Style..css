@@ -16,16 +16,28 @@ footer {
 .nav-links {
 display: flex;
 align-items: center;
-align-content: center;
 justify-content: flex-end;
 list-style: none;
 }
       
-.nav-links, a {
-padding: 0 10px
+.nav-links, a, ul{
+padding: 0 10px 
 }
 
 
 
+
+/**** Menu filters****/
+
+.menu-filters {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+list-style: none;
+}
+
+.menu-filters,  div{  
+ padding: 0px;
+}
  
 
