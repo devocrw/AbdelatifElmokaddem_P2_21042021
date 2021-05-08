@@ -1,0 +1,193 @@
+body {font-family: 'Raleway', sans-serif;
+    /*display: flex;*/
+}	
+
+
+
+/******* Header *******/
+
+
+
+/******** Nav ********/
+
+.nav-links {
+display: flex;
+align-items: center;
+justify-content: flex-end;
+list-style: none;
+}
+      
+.nav-links, a, ul{
+padding: 0 10px; 
+text-decoration: none;
+color: black;
+list-style: none;
+}
+
+
+
+
+/******** Filters ********/
+
+
+#filters {
+    display: flex;
+    align-items: center;
+    font-family: "ralewaybold";
+    margin-top : 15px;
+    padding    : 0 25px;
+    flex-wrap  : wrap;
+}
+
+#filters h2 {
+    font-size   : 19px;
+    margin-left : 0;
+    margin-right: 25px;
+    padding-left: 0%;
+}
+
+#filters ul {
+    display             : flex;
+    list-style-type     : none;
+    padding-inline-start: 0px;
+    flex-wrap           : wrap;
+}
+
+#filters ul a {
+    display        : flex;
+    text-decoration: none;
+    align-items    : center;
+    color          : black;
+}
+
+#filters li {
+    display      : flex;
+    border       : 2px solid #F2F2F2;
+    border-left  : none;
+    border-radius: 28px;
+    padding-right: 20px;
+    margin       : 5px 25px 5px 0;
+}
+
+.eco: hover {
+    background-color: #F2F2F2;
+}
+
+.fami: hover {
+     background-color: #F2F2F2;
+}
+
+.roman: hover {
+    background-color: #F2F2F2;
+}
+
+.animaux: hover{
+    background-color: #F2F2F2;
+}
+
+/******** Les Hebergements ********/
+
+.container {
+    display: flex;
+}
+
+.hebergement {
+    /*width: 60%;*/
+    flex-grow: 2;
+    background-color: #f2f2f2;
+    margin:25px;
+    padding: 20px;
+    border-radius: 20px
+ }
+    
+
+.populaire {
+    /*width: 40%;*/
+    flex-grow: 1;
+    background-color: #f2f2f2;
+    margin:25px;
+    padding: 20px;
+    border-radius: 20px
+    
+display: grid;
+grid-template-columns: 37% 63%;
+min-height: 400px;
+}
+
+.populaire .img {
+    background: url(../Lesoleilmatin) center/cover;
+}
+/********* Les activites ********/
+
+.activite {
+    background-color: #ffffff;
+    margin:25px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.activite_boites {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.activite_boites article {
+    flex: 20%;
+}
+
+.hebergement_boites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hebergement_boites article {
+    flex: 30%;
+    background-color: 
+    margin:5px;
+    padding:5px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/******** Les plus populaires ********/
+
+.populaire_boites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.populaire_boites article {
+    background-color: 
+    flex: 100%;
+    margin:5px;
+    padding:5px;
+}
+
+.populaire_boite_design {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/********* Footer ********/
+
+.menu-footer ul{
+    display: contents;
+   }
+.menu-footer {
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: space-around;
+}    
+/*.menu-footer div{
+    margin-right: 18%;
+}*/
+      
+
