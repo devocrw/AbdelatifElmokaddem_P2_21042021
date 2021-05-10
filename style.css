@@ -69,19 +69,19 @@ list-style: none;
     margin       : 5px 25px 5px 0;
 }
 
-.eco: hover {
+.eco hover {
     background-color: #F2F2F2;
 }
 
-.fami: hover {
+.fami hover {
      background-color: #F2F2F2;
 }
 
-.roman: hover {
+.roman hover {
     background-color: #F2F2F2;
 }
 
-.animaux: hover{
+.animaux hover {
     background-color: #F2F2F2;
 }
 
@@ -94,8 +94,7 @@ list-style: none;
 
 .hebergement_boites article {
     flex: 30%;
-    background-color: 
-    margin:5px;
+    margin: 5px; 
     padding:5px;
     display: flex; 
     flex-direction: column;
@@ -133,7 +132,6 @@ list-style: none;
 }
 
 .populaire_boites article {
-    background-color: 
     flex: 100%;
     margin:5px;
     padding:5px;
