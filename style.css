@@ -89,7 +89,22 @@ list-style: none;
 
 .container {
     display: flex;
+    
 }
+
+.hebergement_boites article {
+    flex: 30%;
+    background-color: 
+    margin:5px;
+    padding:5px;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hebergement_boites img {
+ border-radius: 30px;
+} 
 
 .hebergement {
     /*width: 60%;*/
@@ -100,6 +115,7 @@ list-style: none;
     border-radius: 20px
  }
     
+/******** Les plus populaires ********/
 
 .populaire {
     /*width: 40%;*/
@@ -107,15 +123,29 @@ list-style: none;
     background-color: #f2f2f2;
     margin:25px;
     padding: 20px;
-    border-radius: 20px
-    
-display: grid;
-grid-template-columns: 37% 63%;
-min-height: 400px;
+    border-radius: 15px
+}   
+
+.populaire_boites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.populaire .img {
-    background: url(../Lesoleilmatin) center/cover;
+.populaire_boites article {
+    background-color: 
+    flex: 100%;
+    margin:5px;
+    padding:5px;
+}
+
+.populaire_boite_design {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.populaire_boite_design img {
+    border-radius: 30px;
 }
 /********* Les activites ********/
 
@@ -138,38 +168,6 @@ min-height: 400px;
 }
 
 .hebergement_boites {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.hebergement_boites article {
-    flex: 30%;
-    background-color: 
-    margin:5px;
-    padding:5px;
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-/******** Les plus populaires ********/
-
-.populaire_boites {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.populaire_boites article {
-    background-color: 
-    flex: 100%;
-    margin:5px;
-    padding:5px;
-}
-
-.populaire_boite_design {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
