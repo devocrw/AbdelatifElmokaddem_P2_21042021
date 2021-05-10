@@ -69,20 +69,20 @@ list-style: none;
     margin       : 5px 25px 5px 0;
 }
 
-.eco hover {
-    background-color: #F2F2F2;
+.eco  {
+    background-color: #f2f2f200;
 }
 
-.fami hover {
-     background-color: #F2F2F2;
+.fami  {
+     background-color: #f2f2f200;
 }
 
-.roman hover {
-    background-color: #F2F2F2;
+.roman  {
+    background-color: #f2f2f200;
 }
 
-.animaux hover {
-    background-color: #F2F2F2;
+.animaux {
+    background-color: #f2f2f200;
 }
 
 /******** Les Hebergements ********/
@@ -114,6 +114,12 @@ list-style: none;
     border-radius: 20px
  }
     
+ .hebergement_boites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+   
 /******** Les plus populaires ********/
 
 .populaire {
@@ -163,13 +169,8 @@ list-style: none;
 
 .activite_boites article {
     flex: 20%;
-}
+}  
 
-.hebergement_boites {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
 
 /********* Footer ********/
@@ -182,8 +183,5 @@ list-style: none;
     background-color: #f2f2f2;
     justify-content: space-around;
 }    
-/*.menu-footer div{
-    margin-right: 18%;
-}*/
-      
+  
 
