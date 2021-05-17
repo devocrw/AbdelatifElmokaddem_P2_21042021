@@ -92,24 +92,30 @@ list-style: none;
     
 }
 
-.hebergement_boites article {
+.hebergement_boites div {
     flex: 30%;
     margin: 5px; 
     padding:5px;
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: white;
+    border-radius: 25px
+}
+
+.hebergement_texte h3, .hebergement_texte p{
+    margin: 2px;
 }
 
 .hebergement_boites img {
- border-radius: 30px;
+ 	border-radius: 25px;
 } 
 
 .hebergement {
     /*width: 60%;*/
-    flex-grow: 2;
+    flex: 50%;
     background-color: #f2f2f2;
-    margin: 40px;
+    margin: 5px;
     padding: 20px;
     border-radius: 20px
  }
@@ -124,10 +130,10 @@ list-style: none;
 
 .populaire {
     /*width: 40%;*/
-    flex-grow: 1;
+    flex: 30%;
     background-color: #f2f2f2;
-    margin:40px;
-    padding: 30px;
+    margin:5px;
+    padding: 20px;
     border-radius: 15px
 }   
 
@@ -147,9 +153,22 @@ list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: white;
+    border-radius: 25px
 }
+
+.populaire_text {
+	display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+
+.populaire_text h3, .populaire_text p {
+    margin: 2px;
+}
+
 .populaire_boite_design img {
-    border-radius: 30px;
+    border-radius: 25px;
 }
 /********* Les activites ********/
 
@@ -167,9 +186,47 @@ list-style: none;
     flex-wrap: wrap;
 }
 
-.activite_boites article {
+.activite_boite_contenu {
     flex: 20%;
+    margin:5px;
 }  
+
+/*.activite_text h3, .activite_text p {
+   
+}*/
+
+.activite_boites_colonne {
+
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:5px;
+}
+
+.activite_image img {
+	/*height: 600px;*/
+	background-image: /*url('./images/VieuxPort');*/
+	/*background-repeat: no-repeat;*/
+        background-color: white;
+	border-radius: 25px;
+}
+
+
+.activite_image_2 img {
+	/*height: 300px;*/
+	background-image: /*url('./images/Pomegues.jpg');*/
+        background-color: white;
+	border-radius: 25px;
+}
+
+
+.activite_image_3 img {
+	/*height: 200px;*/
+	background-image: /*url('./images/Lepanier.jpg');*/
+        background-color: white;   
+	border-radius: 25px;
+}
 
 
 
