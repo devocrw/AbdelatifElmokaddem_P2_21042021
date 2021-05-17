@@ -31,12 +31,24 @@
   <div>
     <h1>Trouvez votre hébergment pour des vacances de rêve</h1>
     <p>En plein centre ville ou en plein natrure</p>
+ </div>
 
-    <div> <input type="text" id="comment" name="comment" value="Marseille,France" />
+    <div class="logosearch">
+                <div class="iconemap">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                </div>
+                <form method="post" action="traitement.php">
+                    <p>
+                        <input type="text" name="localisation" id="city" placeholder="Marseille,France">
+                    </p>
+                </form>
+                <div class="loupelogo">
+                    <a class="boutonderecherche" href="#">Rechercher</a>
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
 
-      <button>Recherche</button>
-
-    </div>
+   
   </div>
   <div id="filters">
     <h2>Filtres</h2>

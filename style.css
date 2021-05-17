@@ -23,8 +23,36 @@ text-decoration: none;
 color: black;
 list-style: none;
 }
+/******** Bouton de recherche ********/
 
 
+.logosearch {
+  display: inline-flex;
+  margin-top: 15px;
+  align-items: center;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Raleway", "Sans serif";
+  border-right: none;
+  border-left: none;
+  border-top: #f2f2f2 1px solid;
+  border-bottom: #f2f2f2 1px solid;
+  padding: 0 1.5em;
+  width: 60%;
+  height: 50px;
+  font-size: 16px;
+}
+
+.boutonderecherche {
+  border-radius: 0px 18px 18px 0;
+  padding: 15px;
+  background-color: #0065fc;
+  color: white;
+  right: 43px;
+}
 
 
 /******** Filters ********/
