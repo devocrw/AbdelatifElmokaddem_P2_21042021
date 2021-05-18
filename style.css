@@ -3,6 +3,18 @@ body {font-family: 'Raleway', sans-serif;
 }	
 
 
+h1,
+h2,
+h3,
+
+a {
+  font-family: "Raleway";
+  font-weight: bold;
+}
+
+p {
+  font-family: "Raleway";
+}
 
 /******* Header *******/
 
@@ -46,12 +58,40 @@ input {
   font-size: 16px;
 }
 
+
+button {
+  background-color: #0065fc;
+  border: none;
+  padding: 15px 15px;
+  border-radius: 0px 10px 10px 0px;
+  font-weight: bold;
+  font-family: "Raleway", "Sans serif";
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0 -50px;
+}
+
+
+.iconemap {
+  font-size: 25px;
+  background-color: #f2f2f2;
+  border-radius: 1rem 0 0 1rem;
+  padding: 10px 10px;
+  width: 30px;
+  text-align: center;
+}
+
+
 .boutonderecherche {
   border-radius: 0px 15px 15px 0;
   padding: 15px;
   background-color: #0065fc;
   color: white;
   right: 43px;
+}
+
+.loupelogo i {
+  display: none;
 }
 
 
