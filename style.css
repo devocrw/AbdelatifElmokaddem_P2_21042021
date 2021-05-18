@@ -2,6 +2,10 @@ body {font-family: 'Raleway', sans-serif;
     /*display: flex;*/
 }	
 
+/*#paramepage {
+ margin: auto;
+  width: 70%;
+}*/
 
 h1,
 h2,
@@ -36,6 +40,8 @@ color: black;
 list-style: none;
 }
 /******** Bouton de recherche ********/
+
+
 
 
 .logosearch {
@@ -94,6 +100,10 @@ button {
   display: none;
 }
 
+
+.fas {
+  color: #0065fc;
+}
 
 /******** Filters ********/
 
@@ -156,6 +166,9 @@ button {
 #filtres span li {
     border: none;
 }
+
+
+
 
 /******** Les Hebergements ********/
 
