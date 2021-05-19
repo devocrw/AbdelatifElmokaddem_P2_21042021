@@ -10,7 +10,7 @@ body {font-family: 'Raleway', sans-serif;
 h1,
 h2,
 h3,
-
+h4,
 a {
   font-family: "Raleway";
   font-weight: bold;
@@ -21,6 +21,14 @@ p {
 }
 
 /******* Header *******/
+
+
+
+#blocpage {
+  margin: auto;
+  width: 98%;
+}
+
 
 
 
@@ -172,18 +180,46 @@ button {
 }
 
 
+.fa-info {
+  text-align: center;
+  color: #0065fc;
+  border-radius: 100%;
+  height: 32px;
+  width: 33px;
+  border: solid 1px #d9d9d9;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+
+
+
+.infotext {
+  padding-left: 10px;
+}
+
+
+.subtext {
+  margin-bottom: -35px;
+}
+
+
+
+.info {
+  display: flex;
+}
 
 
 /******** Les Hebergements ********/
 
 .container {
     display: flex;
-    
+    margin: 25px 0 50px;
 }
 
 .hebergement_boites div {
     flex: 20%;
-    margin: 15px; 
+    margin: 10px; 
     padding:7px;
     display: flex; 
     flex-direction: column;
@@ -192,20 +228,25 @@ button {
     border-radius: 25px
 }
 
+.hebergement_texte {
+  margin: 0px !important; 
+  border-radius: 0 0 25px 25px !important;
+}
 .hebergement_texte h3, .hebergement_texte p{
     margin: 2px;
 }
 
 .hebergement_boites img {
- 	border-radius: 25px;
+ 	border-radius: 15px 15px 0 0;
 } 
 
 .hebergement {
     /*width: 60%;*/
-    flex: 20%;
+    /*display: flex;*/
     background-color: #f2f2f2;
-    margin: 15px;
-    padding: 20px;
+    width: 62%;
+    margin: 0 25px 0 0;
+    padding: 60px;
     border-radius: 20px
  }
     
@@ -214,15 +255,19 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.hebergement_boites div {
+  flex: 25%;
+}
    
 /******** Les plus populaires ********/
 
 .populaire {
     /*width: 40%;*/
-    flex: 15%;
+    /*display: flex;*/
     background-color: #f2f2f2;
-    margin:10px;
-    padding: 40px;
+    width: 32%;
+    padding: 20px;
     border-radius: 15px
     
 }   
@@ -230,7 +275,7 @@ button {
 .populaire_boite_design img {
 
     border-radius: 30px;
-    box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 16px #0000002e;
     cursor: pointer
 }
 
@@ -271,7 +316,7 @@ button {
 }
 
 .populaire_boite_design img {
-    border-radius: 25px;
+    border-radius: 15px 0 0 15px;
     
 }
 
@@ -279,7 +324,7 @@ button {
 
 .activite img {
     background-color: #ffffff;
-    margin:25px;
+    /*margin:25px;*/
     padding: 0px;
     border-radius: 30px;
     box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
@@ -298,6 +343,17 @@ button {
     margin:5px;
 }  
 
+.activite_boites_design {
+  background-color: white;
+    border-radius: 30px;
+    box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+.activite_boites_design h3 {
+  padding-left: 15px;
+}
+
 /*.activite_text h3, .activite_text p {
    
 }*/
@@ -311,33 +367,80 @@ button {
     margin:5px;
 }
 
-.activite_image img {
+.activite_image {
 	/*height: 600px;*/
-	background-image: /*url('./images/VieuxPort');*/
+	background-image: url('./images/VieuxPort');
 	/*background-repeat: no-repeat;*/
         
 	border-radius: 25px;
 }
 
-
-.activite_image_2 img {
-	/*height: 300px;*/
-	background-image: /*url('./images/Pomegues.jpg');*/
-        background-color: /*white;*/
-	border-radius: 25px;
+.activite_image_port {
+  height: 665px;
+  background-image: url('./images/VieuxPort.jpg');
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  background-size: cover;
+  background-position: center;
 }
 
 
-.activite_image_3 img {
-	/*height: 200px;*/
-	background-image: /*url('./images/Lepanier.jpg');*/
-        background-color: /*white;*/   
-	border-radius: 25px;
+.activite_image_pomegues {
+  height: 250px;
+  width: 100%;
+  background-image: url('./images/Pomegues.jpg');
+        
+  border-radius: 25px 25px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.activite_image_NDGarde {
+  height: 350px;
+  width: 100%;
+  background-image: url('./images/NDGarde.jpg');
+        
+  border-radius: 25px 25px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.activite_image_calanque {
+  height: 665px;
+  background-image: url('./images/Calanques.jpg');
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.activite_image_frioul {
+  height: 250px;
+  width: 100%;
+  background-image: url('./images/Frioul.jpg');
+        
+  border-radius: 25px 25px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.activite_image_longchamp {
+	height: 350px;
+  width: 100%;
+	background-image: url('./images/Longchamp.jpg');
+        
+	border-radius: 25px 25px 0 0;
+  background-size: cover;
+  background-position: center;
 }
 
 
 
 /********* Footer ********/
+
 
 .menu-footer ul{
     display: contents;
@@ -346,6 +449,7 @@ button {
     display: flex;
     background-color: #f2f2f2;
     justify-content: space-around;
-}    
+}  
+
   
 
