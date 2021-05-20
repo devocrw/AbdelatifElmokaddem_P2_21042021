@@ -2,10 +2,6 @@ body {font-family: 'Raleway', sans-serif;
     /*display: flex;*/
 }	
 
-/*#paramepage {
- margin: auto;
-  width: 70%;
-}*/
 
 h1,
 h2,
@@ -29,12 +25,30 @@ p {
   width: 98%;
 }
 
+/******** Container ********/
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
 
 
 
 /******** Nav ********/
 
-.nav-links {
+.Logohaut {
+  cursor: pointer;
+}
+
+
+
+/*.nav-links {
 display: flex;
 align-items: center;
 justify-content: flex-end;
@@ -46,7 +60,55 @@ padding: 0 10px;
 text-decoration: none;
 color: black;
 list-style: none;
+}*/
+
+.nav-links {
+  display: flex;
+  margin-right: 3%;
 }
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  color: #0065fc;
+}
+
+.nav-links ul li a:hover {
+  border-top: 2px solid #0065fc;
+  padding-top: 21px;
+  color: #0065fc;
+}
+
+.nav-links ul li {
+  margin-left: 28px;
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.inscrire a {
+  color: #0065fc;
+  margin-right: 0%;
+}
+
+.inscrire a:hover {
+  border-top: 2px solid #0065fc;
+  padding-top: 21px;
+}
+
+.inscrire {
+  padding-left: 28px;
+}
+
+
 /******** Bouton de recherche ********/
 
 
@@ -118,103 +180,85 @@ button {
   color: black;
 }
 /******** Filters ********/
-
-
-#filters {
-    display: flex;
-    align-items: center;
-    font-family: "ralewaybold";
-    margin-top : 15px;
-    padding    : 0 25px;
-    flex-wrap  : wrap;
+.titrefiltres {
+  font-size: 1.3em;
+  margin: 0 20px 0 0;
 }
 
-#filters h2 {
-    font-size   : 19px;
-    margin-left : 0;
-    margin-right: 25px;
-    padding-left: 0%;
+.titre {
+  font-family: "Raleway", "Sans serif";
+  font-weight: bold;
+  padding-right: 1.5em;
+  padding-left: 0.5em;
+  cursor: pointer;
 }
 
-#filters ul {
-    display             : flex;
-    list-style-type     : none;
-    padding-inline-start: 0px;
-    flex-wrap           : wrap;
+.barreFiltre:hover {
+  background: #edf4f7;
+  color: #fff;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
 }
 
-#filters ul a {
-    display        : flex;
-    text-decoration: none;
-    align-items    : center;
-    color          : black;
+.barreFiltre {
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin-right: 2em;
+  border: 2px solid #d9d9d9;
+  border-radius: 2em;
+  font-weight: bold;
 }
 
-#filters li {
-    display      : flex;
-    border       : 2px solid #F2F2F2;
-    border-left  : none;
-    border-radius: 28px;
-    padding-right: 20px;
-    margin       : 5px 25px 5px 0;
+.filtres {
+  display: flex;
+  align-items: center;
 }
 
-.eco: hover  {
-    background-color: #f2f2f200;
+.imagefiltre {
+  padding: 15px 15px;
+  border-radius: 50%;
+  background-color: #dee3fa;
+  cursor: pointer;
 }
 
-.fami: hover   {
-     background-color: #f2f2f200;
+.fas {
+  color: #0065fc;
 }
 
-.roman: hover {
-    background-color: #f2f2f200;
+.fa-map-marker-alt {
+  color: black;
 }
 
-.animaux: hover {
-    background-color: #f2f2f200;
-}
+/* la ligne information */
 
-#filtres span li {
-    border: none;
+.info {
+  display: flex;
 }
-
 
 .fa-info {
   text-align: center;
   color: #0065fc;
   border-radius: 100%;
-  height: 32px;
+  height: 33px;
   width: 33px;
   border: solid 1px #d9d9d9;
   padding: 7px;
   box-sizing: border-box;
 }
 
-
-
-
 .infotext {
   padding-left: 10px;
 }
 
 
-.subtext {
-  margin-bottom: -35px;
-}
-
-
-
-.info {
-  display: flex;
-}
 
 
 /******** Les Hebergements ********/
 
 .container {
     display: flex;
-    margin: 25px 0 50px;
+    margin: 25px 0 40px;
 }
 
 .hebergement_boites div {
@@ -329,6 +373,7 @@ button {
     border-radius: 30px;
     box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer
+   
 }
 
 .activite_boites {
@@ -339,15 +384,18 @@ button {
 }
 
 .activite_boite_contenu {
-    flex: 20%;
+    flex: 10%;
     margin:5px;
+    width: 20%
 }  
 
 .activite_boites_design {
   background-color: white;
     border-radius: 30px;
     box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 5px;
+    margin-bottom: 6px;
+    width: 40%,
+
 }
 
 .activite_boites_design h3 {
@@ -360,11 +408,11 @@ button {
 
 .activite_boites_colonne {
 
-    flex: 20%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin:5px;
+   
 }
 
 .activite_image {
@@ -376,7 +424,7 @@ button {
 }
 
 .activite_image_port {
-  height: 665px;
+  height: 662px;
   background-image: url('./images/VieuxPort.jpg');
   width: 100%;
   border-radius: 25px 25px 0 0;
@@ -439,12 +487,16 @@ button {
 
 
 
-/********* Footer ********/
+/********* Footer *********/
 
 
 .menu-footer ul{
     display: contents;
-   }
+    list-style: none;  
+}
+
+
+
 .menu-footer {
     display: flex;
     background-color: #f2f2f2;

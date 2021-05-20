@@ -9,6 +9,9 @@
 
 </head>
 
+
+
+
 <body>
 
  <div id="blocpage">
@@ -16,23 +19,25 @@
 
   <header>
 
-    <div id="container">
+    <div class="container">
 
-      <div>
-        <img src="images/logo/Reservia.svg" alt="logo" />
-      </div>
+         <div id="logo">
+            <img class="Logohaut" src="images/logo/Reservia.svg" alt="Reservia">
+         </div>
 
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#">Hebergements</a></li>
-          <li><a href="#">Activités</a></li>
-          <li><a href="#">S'inscrire</a></li>
+
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#Hebergements">Hébergements</a></li>
+          <li><a href="#Activites">Activités</a></li>
         </ul>
-      </nav>
-
-
+      
+     <div class="inscrire">
+      <a href="#">S'inscrire</a>
+      </div>
+    </nav>
   </header>
-
+</div>
 
   <div class="subtext">
     <h1>Trouvez votre hébergment pour des vacances de rêve</h1>
@@ -43,7 +48,7 @@
                 <div class="iconemap">
                     <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                 </div>
-                <form method="post" action="traitement.php">
+                <form method="post" action="form.php">
                     <p>
                         <input type="text" name="localisation" id="city" placeholder="Marseille,France">
                     </p>
@@ -55,24 +60,36 @@
             </div>
 
    
-  </div>
-  <div id="filters">
-    <h2>Filtres</h2>
-    <div>
-      <ul>
-        <li class="eco"><a href="#" class="economique"><i class="fas fa-money-bill-wave"></i>Économique</a>
-        </li>
+  
+  <div class="filtres">
+    <h2 class="titrefiltres">Filtres</h2>
+    <div class="barreFiltre">
+           <div class="imagefiltre">
+                     <i class="fas fa-money-bill-wave icons"></i>
+                    </div>
+                    <span class="titre">Économique</span>
+                </div>
+                <div class="barreFiltre fam">
+                    <div class="imagefiltre">
+                        <i class="fas fa-child icons"></i>
+                    </div>
+                    <span class="titre">Familial</span>
+                </div>
+                <div class="barreFiltre">
+                    <div class="imagefiltre">
+                        <i class="fas fa-heart icons"></i>
+                    </div>
+                    <span class="titre">Romantique</span>
+                </div>
+                <div class="barreFiltre">
+                    <div class="imagefiltre">
+                        <i class="fas fa-dog icons"></i>
+                    </div>
+                    <span class="titre">Animaux autorisés</span>
+                </div>
+            </div>
+    
 
-        <li class="fami"><a href="#" class="familial"><i class="fas fa-child"
-              style="padding-right: 16px; padding-left: 16px;"></i>Familial</a>
-        </li>
-
-        <li class="roman"><a href="#" class="romantique"><i class="fas fa-heart"></i>Romantique</a></li>
-        <li class="animaux"><a href="#" class="anim"><i class="fas fa-dog"></i>Animaux
-            autorisés</a></li>
-      </ul>
-    </div>
-  </div>
 
 
 
@@ -152,7 +169,7 @@
       <div class="populaire_boites">
         <article class="populaire_boite_design">
 
-            <img src="images/Lesoleilmatin.jpg" alt="Le soleil du matin" width="200px" height="200px">
+            <img src="images/Lesoleilmatin.jpg" alt="Le soleil du matin" width="150px" height="200px">
             <div class="populaire_text">
               <h3>Hotel Le soleil du matin</h3>
               <p>Nuit à partir de 128€</p>
@@ -161,7 +178,7 @@
 
         <article class="populaire_boite_design">
 
-          <img src="images/Coeurdeleau.jpg" alt="Au Coeur de l'eau" width="200px" height="190px">
+          <img src="images/Coeurdeleau.jpg" alt="Au Coeur de l'eau" width="150px" height="200px">
           <div class="populaire_text">
             <h3>Au coeur de l'eau Chambre d'hotes</h3>
             <p>Nuit à partir de 71€</p>
@@ -169,7 +186,7 @@
         </article>
 
         <article class="populaire_boite_design">
-          <img src="images/Bleuetblanc.jpg" alt="Hotel Tout bleu et Blanc" width="200px" height="200px">
+          <img src="images/Bleuetblanc.jpg" alt="Hotel Tout bleu et Blanc" width="150px" height="200px">
           <div class="populaire_text">
             <h3>Hotel Tour bleu et Blanc</h3>
             <p>Nuit à partir de 68€</p>
