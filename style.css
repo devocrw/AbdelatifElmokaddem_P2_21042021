@@ -194,7 +194,7 @@ button {
 }
 
 .barreFiltre:hover {
-  background: #edf4f7;
+  background: #deebff;
   color: #fff;
   transition: 0.4s ease-in-out;
   cursor: pointer;
@@ -256,7 +256,8 @@ button {
 
 /******** Les Hebergements ********/
 
-.container {
+
+.mainheberg {
     display: flex;
     margin: 25px 0 40px;
 }
@@ -284,11 +285,9 @@ button {
  	border-radius: 15px 15px 0 0;
 } 
 
-.hebergement {
-    /*width: 60%;*/
-    /*display: flex;*/
+.containerheberg  {
     background-color: #f2f2f2;
-    width: 62%;
+    width: 50%;
     margin: 0 25px 0 0;
     padding: 60px;
     border-radius: 20px
@@ -301,17 +300,23 @@ button {
 }
 
 .hebergement_boites div {
-  flex: 25%;
+  flex: 10%;
 }
    
+.hebergement_boites img {
+
+    box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer
+}
+
 /******** Les plus populaires ********/
 
 .populaire {
-    /*width: 40%;*/
-    /*display: flex;*/
+    display: flex;
     background-color: #f2f2f2;
     width: 32%;
-    padding: 20px;
+    padding: 30px;
+    margin:  0px;
     border-radius: 15px
     
 }   
@@ -321,6 +326,7 @@ button {
     border-radius: 30px;
     box-shadow: 0 5px 16px #0000002e;
     cursor: pointer
+    
 }
 
 .populaire_boites {
@@ -330,7 +336,7 @@ button {
 }
 
 .populaire_boites article {
-    flex: 60%;
+    flex: 50%;
     margin:10px;
     padding:10px;
 }
@@ -340,14 +346,13 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: white;
-    border-radius: 10px
+    border-radius: 20px;
+    padding: 0px;
+    margin:  25px;
+    
 }
 
-.hebergement_boites img {
 
-    box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
-    cursor: pointer
-}
 
 .populaire_text {
 	display: flex;
@@ -361,10 +366,12 @@ button {
 
 .populaire_boite_design img {
     border-radius: 15px 0 0 15px;
+    padding: 0px;
+    margin:  5px;
     
 }
 
-/********* Les activites ********/
+/********* Les activites *********/
 
 .activite img {
     background-color: #ffffff;
@@ -490,9 +497,10 @@ button {
 /********* Footer *********/
 
 
-.menu-footer ul{
+.menu-footer  ul{
     display: contents;
     list-style: none;  
+     
 }
 
 
@@ -501,7 +509,14 @@ button {
     display: flex;
     background-color: #f2f2f2;
     justify-content: space-around;
+    
 }  
 
+.margefooter li{
+  display: flex;
+  margin-bottom  : 10px;
   
+}
+
+ 
 
