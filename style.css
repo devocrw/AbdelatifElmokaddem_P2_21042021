@@ -25,6 +25,8 @@ p {
   width: 90%;
 }
 
+
+
 /******** Container ********/
 
 .container {
@@ -36,11 +38,8 @@ p {
 
 
 
-
-
-
-
 /******** Nav ********/
+
 
 .Logohaut {
   cursor: pointer;
@@ -520,4 +519,210 @@ button {
 }
 
  
+/*********** Zone responsive ecrans mobile ************/
+
+
+@media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
+  /* PARAMETRES GENERAUX */
+
+  h2 {
+    /*font-family: 'Raleway-Semibold';*/
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  H3 {
+    font-size: 16px;
+  }
+
+  /* HEADER */
+
+  header {
+    margin: 0;
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .containerheader {
+    display: grid;
+    padding-top: 5px;
+  }
+
+ .nav-links {
+    margin-right: 0;
+  }
+
+  /* HEADER MENU */
+
+  .inscrire {
+    position: ABSOLUTE;
+    top: 29px;
+    right: 30px;
+  }
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+  }
+
+.nav-links ul {
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+.containerheader ul li {
+    margin-left: 0;
+    padding: 10px 46px 5px 11px;
+  }
+
+.containerheader ul li a:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+    padding-bottom: 5px;
+  }
+
+  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
+
+  .loupelogo i {
+    display: inline;
+    color: white;
+    background-color: #0065fc;
+    padding: 18px;
+    border-radius: 18px;
+    position: relative;
+    right: 52px;
+  }
+
+  .boutonderecherche {
+    display: none;
+  }
+
+  /* FILTRES */
+
+  .filtres {
+    display: grid;
+  }
+
+  .titrefiltres {
+    margin-bottom: 10px;
+  }
+
+  .barreFiltre {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .fam {
+    position: absolute;
+    margin: 34px 0 0 55%;
+    width: 35%;
+  }
+
+.nav-liks ul li a:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+    padding-bottom: 5px;
+  }
+
+  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
+
+ .loupelogo i {
+    display: inline;
+    color: white;
+    background-color: #0065fc;
+    padding: 18px;
+    border-radius: 18px;
+    position: relative;
+    right: 52px;
+  }
+
+  .boutonderecherche {
+    display: none;
+  }
+
+  /* FILTRES */
+
+  .filtres {
+    display: grid;
+  }
+
+  .titrefiltres {
+    margin-bottom: 10px;
+  }
+
+  .barreFiltre {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .fam {
+    position: absolute;
+    margin: 34px 0 0 55%;
+    width: 35%;
+  }
+
+
+
+
+
+/*********** HEBERGEMENTS A MARSEILLE **********/
+
+
+    
+        
+/* PARAMETRES HEBERGEMENTS */
+
+
+.mainheberg {
+    width: 100%;
+    background-color: white;
+    order: 2;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+}
+
+
+.mainheberg {
+    display: flex;
+    flex-direction: reverse-column;
+}
+
+
+.heberg-sousboite {
+    width: 95%;
+    height: 210px;
+    font-size: 14px;
+}
+
+
+  /* PARAMETRES POPULAIRES */
+
+
+.populaire {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    order: 1;
+    display: grid;
+}
+
+
+.lespluspop {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.populaire_boite_design {
+    width: 95%;
+    padding: 5px;
+    margin: 8px;
+    font-size: 14px;
+}
+
+
+
 
