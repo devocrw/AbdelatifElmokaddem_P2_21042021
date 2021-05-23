@@ -1,0 +1,119 @@
+/*********** Zone responsive ecrans mobile ************/
+
+
+@media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
+
+
+  /********** PARAMETRES GENERAUX **********/
+
+  h2 {
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  h3 {
+    font-size: 16px;
+}
+
+  /********** HEADER **********/
+
+.containerheader {
+    margin: 0;
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .containerheader {
+    display: grid;
+    padding-top: 5px;
+  }
+
+ .nav-links {
+    margin-right: 0;
+  }
+
+  /********** HEADER MENU **********/
+
+  .inscrire {
+    position: ABSOLUTE;
+    top: 29px;
+    right: 30px;
+  }
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+  }
+
+.nav-links ul {
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+.containerheader ul li {
+    margin-left: 0;
+    padding: 10px 46px 5px 11px;
+  }
+
+.containerheader ul li a:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+    padding-bottom: 5px;
+  }
+
+
+  
+
+
+
+
+
+/********************* LES HEBERGEMENTS A MARSEILLE ********************/
+
+
+    
+        
+/********** PARAMETRES HEBERGEMENTS **********/
+
+
+.mainheberg {}
+    
+
+
+
+.hebergement {}
+    
+
+
+
+.heberg-sousboite {}
+ 
+
+
+
+
+
+/********** PARAMETRES LES PLUS POPULAIRES **********/
+
+
+.populaire {}
+    
+
+
+
+.lespluspop {}
+  
+
+
+
+.populaire_boite_design {}
+  
+
+
+
+
+
+/********** PARAMATRES LES ACTIVITES**********/
