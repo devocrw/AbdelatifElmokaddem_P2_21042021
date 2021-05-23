@@ -523,21 +523,23 @@ button {
 
 
 @media (min-width: 300px) and (max-width: 767px) /* SMARTPHONES */ {
-  /* PARAMETRES GENERAUX */
+
+
+  /********** PARAMETRES GENERAUX **********/
 
   h2 {
-    /*font-family: 'Raleway-Semibold';*/
+    
     font-size: 20px;
     font-weight: bold;
-  }
+}
 
-  H3 {
+  h3 {
     font-size: 16px;
-  }
+}
 
-  /* HEADER */
+  /********** HEADER **********/
 
-  header {
+.containerheader {
     margin: 0;
     width: 100%;
     padding-left: 5px;
@@ -552,7 +554,7 @@ button {
     margin-right: 0;
   }
 
-  /* HEADER MENU */
+  /********** HEADER MENU **********/
 
   .inscrire {
     position: ABSOLUTE;
@@ -583,146 +585,56 @@ button {
     padding-bottom: 5px;
   }
 
-  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
 
-  .loupelogo i {
-    display: inline;
-    color: white;
-    background-color: #0065fc;
-    padding: 18px;
-    border-radius: 18px;
-    position: relative;
-    right: 52px;
-  }
-
-  .boutonderecherche {
-    display: none;
-  }
-
-  /* FILTRES */
-
-  .filtres {
-    display: grid;
-  }
-
-  .titrefiltres {
-    margin-bottom: 10px;
-  }
-
-  .barreFiltre {
-    width: 50%;
-    margin-bottom: 10px;
-  }
-
-  .fam {
-    position: absolute;
-    margin: 34px 0 0 55%;
-    width: 35%;
-  }
-
-.nav-liks ul li a:hover {
-    border-bottom: 2px solid #0065fc;
-    border-top: none;
-    padding-bottom: 5px;
-  }
-
-  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
-
- .loupelogo i {
-    display: inline;
-    color: white;
-    background-color: #0065fc;
-    padding: 18px;
-    border-radius: 18px;
-    position: relative;
-    right: 52px;
-  }
-
-  .boutonderecherche {
-    display: none;
-  }
-
-  /* FILTRES */
-
-  .filtres {
-    display: grid;
-  }
-
-  .titrefiltres {
-    margin-bottom: 10px;
-  }
-
-  .barreFiltre {
-    width: 50%;
-    margin-bottom: 10px;
-  }
-
-  .fam {
-    position: absolute;
-    margin: 34px 0 0 55%;
-    width: 35%;
-  }
+  
 
 
 
 
 
-/*********** HEBERGEMENTS A MARSEILLE **********/
+/********************* LES HEBERGEMENTS A MARSEILLE ********************/
 
 
     
         
-/* PARAMETRES HEBERGEMENTS */
+/********** PARAMETRES HEBERGEMENTS **********/
 
 
-.mainheberg {
-    width: 100%;
-    background-color: white;
-    order: 2;
-    width: 100%;
-    margin: 0%;
-    padding: 0;
-}
+.mainheberg {}
+    
 
 
-.mainheberg {
-    display: flex;
-    flex-direction: reverse-column;
-}
+
+.hebergement {}
+    
 
 
-.heberg-sousboite {
-    width: 95%;
-    height: 210px;
-    font-size: 14px;
-}
 
-
-  /* PARAMETRES POPULAIRES */
-
-
-.populaire {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    order: 1;
-    display: grid;
-}
-
-
-.lespluspop {
-  display: flex;
-  flex-direction: column;
-}
-
-
-.populaire_boite_design {
-    width: 95%;
-    padding: 5px;
-    margin: 8px;
-    font-size: 14px;
-}
+.heberg-sousboite {}
+ 
 
 
 
 
+
+/********** PARAMETRES LES PLUS POPULAIRES **********/
+
+
+.populaire {}
+    
+
+
+
+.lespluspop {}
+  
+
+
+
+.populaire_boite_design {}
+  
+
+
+
+
+
+/********** PARAMATRES LES ACTIVITES**********/
