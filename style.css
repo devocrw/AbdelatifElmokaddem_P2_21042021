@@ -21,10 +21,11 @@ p {
 
 #blocpage {
   margin: auto;
-  width: 90%;
+  width: 80%;
+
 }
 
-
+ 
 
 /******** Container ********/
 
@@ -42,6 +43,12 @@ p {
 
 .Logohaut {
   cursor: pointer;
+
+}
+
+.logo {
+  align-items: end;
+
 }
 
 .nav-links {
@@ -60,7 +67,7 @@ p {
 
 .nav-links ul li a:hover {
   border-top: 2px solid #0065fc;
-  padding-top: 45px;
+  padding-top: 21px;
   color: #0065fc;
 }
 
@@ -83,7 +90,7 @@ a {
 
 .inscrire a:hover {
   border-top: 2px solid #0065fc;
-  padding-top: 45px;
+  padding-top: 21px;
 }
 
 .inscrire {
@@ -246,7 +253,7 @@ button {
 }
 
 .heberg-sousboite {
-    margin: 9px; 
+    margin: 10px; 
     padding: 0px; 
     display: flex; 
     flex-direction: column;
@@ -271,8 +278,8 @@ button {
     background-color: #f2f2f2;
     border-radius: 15px;
     width: 62%;
-    padding: 20px;
-    margin: 0 25px 0 0;
+    padding: 35px;
+    margin: 0 35px 0 0;
 
 }
     
@@ -302,11 +309,13 @@ button {
 /******** Les plus populaires ********/
 
 .populaire {
+   display: flex;
    background-color: #f2f2f2;
    border-radius: 15px;
    width: 32%;
-   padding: 20px;
-   display: flex;
+   padding: 28px;
+   margin: 0 50px 0 0;
+   
  
 }   
 
