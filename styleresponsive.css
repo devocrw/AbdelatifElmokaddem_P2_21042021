@@ -115,7 +115,7 @@
 .mainheberg {
   display: flex;
   flex-direction: column-reverse;
-  margin: 25px 0 50px;
+  /*margin: 25px 0 50px;*/
 }
 
 .containerheberg {
@@ -125,13 +125,13 @@
 .containerheberg  {
     
    
-    padding: 35px;
-    margin: 0 35px 0 0;
+    /*padding: 35px;
+    margin: 0 35px 0 0;*/
 }
 
 .heberg-sousboite {
-    margin: 10px; 
-    padding: 0px; 
+    /*margin: 10px; 
+    padding: 0px;*/ 
    
 }
 
