@@ -1,5 +1,5 @@
 body {font-family: 'Raleway', sans-serif;
-    /*display: flex;*/
+  margin: 0;   
 }	
 
 
@@ -21,25 +21,23 @@ p {
 
 #blocpage {
   margin: auto;
-  width: 80%;
-
+  width: 90%;
 }
+
+#Reservia{
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+     display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 30px 0px 0px;
+}
+
 
  
-#Reservia{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-/******** Container ********/
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
 
 
 
@@ -282,9 +280,12 @@ button {
 .containerheberg  {
     background-color: #f2f2f2;
     border-radius: 15px;
-    width: 62%;
+    /*width: 55%;*/
+    max-width: 850px;
     padding: 35px;
     margin: 0 35px 0 0;
+
+ justify-content: space-evenly;
 
 }
     
@@ -292,10 +293,11 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 950px 
+   
 }
 
 .heberg-sousboite {
-  flex: 
   margin: 5px 10px 10px 5px; 
   padding: 6px;
 }
@@ -317,17 +319,21 @@ button {
    display: flex;
    background-color: #f2f2f2;
    border-radius: 15px;
-   width: 32%;
+   /*width: 25%;*/
    padding: 28px;
-   margin: 0 50px 0 0;
+   /*margin: 0 40px 0 0;*/
    
  
 }   
 
 .populaire_boite_design img {
-    border-radius: 30px;
+    /*border-radius: 30px;
     box-shadow: 0 5px 16px #0000002e;
-    cursor: pointer
+    cursor: pointer*/
+    display: flex;
+    flex-direction: row;
+    background-color: white
+    margin: 25px;
     
 }
 
@@ -385,7 +391,6 @@ button {
 
 .activite img {
     background-color: #ffffff;
-    /*margin:25px;*/
     padding: 0px;
     border-radius: 30px;
     box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
@@ -420,9 +425,6 @@ button {
   padding-left: 15px;
 }
 
-/*.activite_text h3, .activite_text p {
-   
-}*/
 
 .activite_boites_colonne {
 
@@ -532,19 +534,4 @@ button {
     color: #404040;
     text-decoration: none;
    
-
-.footer-menu a:hover {
-    color: #000;
-    text-decoration: none;
-    background-size: 5em 100%;
-}
-
-
-
-
-
-
-
-
-
 
