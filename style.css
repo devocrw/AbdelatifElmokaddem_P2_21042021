@@ -21,7 +21,7 @@ p {
 
 #blocpage {
   margin: auto;
-  width: 90%;
+  width: 70%;
 }
 
 #Reservia{
@@ -347,7 +347,7 @@ button {
 .populaire_boites {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 .populaire_boites article {
