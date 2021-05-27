@@ -1,5 +1,5 @@
 body {font-family: 'Raleway', sans-serif;
-  margin: 0;   
+  /*margin: 0;*/   
 }	
 
 
@@ -21,7 +21,7 @@ p {
 
 #blocpage {
   margin: auto;
-  width: 74%;
+  width: 76%;
 }
 
 #Reservia{
@@ -254,7 +254,9 @@ button {
     justify-content: space-between;
     margin: 25px 0 50px;
 }
+ img  { object-fit: cover;
 
+}
 .heberg-sousboite {
     margin: 10px; 
     padding: 0px; 
@@ -262,7 +264,8 @@ button {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: white;
-    border-radius: 25px
+    border-radius: 25px;
+    padding: 6px
 }
 
 .hebergement_texte {
@@ -297,10 +300,10 @@ button {
    
 }
 
-.heberg-sousboite {
+/*.heberg-sousboite {
   margin: 5px 10px 10px 5px; 
-  padding: 6px;
-}
+  
+}*/
    
 .hebergement_boites img {
 
@@ -347,7 +350,7 @@ button {
 .populaire_boites {
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
+    
 }
 
 .populaire_boites article {
@@ -438,7 +441,7 @@ button {
 
 .activite_image {
         background-image: url('./images/VieuxPort');
-	/*background-repeat: no-repeat;*/
+
         
 	border-radius: 25px;
 }
