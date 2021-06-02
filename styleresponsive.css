@@ -36,9 +36,7 @@
     padding-top: 5px;
   }
 
-.nav-links {
-    margin-right: 0;
-}
+
 
   /********** HEADER MENU **********/
 
@@ -46,6 +44,11 @@
     position: ABSOLUTE;
     top: 29px;
     right: 30px;
+}
+
+
+.nav-links {
+    margin-right: 0;
 }
 
 .nav-links {
@@ -90,7 +93,9 @@
   .filtres {
     display: flex;
     flex-wrap: wrap;
+
   }
+
 
   .titrefiltres {
     margin-bottom: 10px;
@@ -169,7 +174,7 @@
 
  .populaire_text {
     
-    margin: 25px;
+    margin: 30px;
 
 }
 
