@@ -356,9 +356,9 @@ button {
 
 }    
 
-/*.fa-chart-line {
+.fa-chart-line {
 color: black;
-}*/
+}
 
 .populaire_boite_design img {     
     display: flex;
@@ -473,7 +473,7 @@ color: black;
 .activite_image {
   background-image: url('./images/VieuxPort');      
 	border-radius: 25px;
-}
+} 
 
 .activite_image_port {
   height: 662px;
@@ -566,5 +566,3 @@ url: images;
     color: #404040;
     text-decoration: none;
 }
-   
-
