@@ -178,7 +178,7 @@ width: 100%;
 
  .populaire_text {
     
-    margin: 30px;
+    /*margin: 30px;*/
 
 }
 
@@ -275,4 +275,14 @@ padding: 0px;
  /*padding: 0.5em 1em;*/
  padding: 20px;
 }
+}
 
+@media (min-device-width: 750px) and (max-device-width: 1435px){
+
+.lespluspop{
+
+  
+  width: 100%;
+}
+
+}

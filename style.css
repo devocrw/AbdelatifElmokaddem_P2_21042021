@@ -285,7 +285,7 @@ button {
     background-color: white;
     border-radius: 25px;
     padding: 6px;
-    max-width: 410px;
+   flex: 25%;
 }
 
 .hebergement_texte {
@@ -298,6 +298,7 @@ button {
 
 .hebergement_boites img {
  	border-radius: 15px 15px 0 0;
+  width: 100%;
 } 
 
 .containerheberg  {
@@ -365,10 +366,9 @@ color: black;
     flex-direction: row;
     background-color: white;
     margin: 20px;
-   
-    
+   flex: 60%;
+   /* width: 100%;*/
 }
-
 
 .etoilespop img{
   margin: 30px;
@@ -459,6 +459,10 @@ color: black;
   padding-left: 15px;
 }
 
+.activite-text {
+padding: 1%;
+
+}
 
 .activite_boites_colonne {
 
@@ -515,7 +519,7 @@ color: black;
 }
 
 .activite_image_NDGarde {
-  height: 330px;
+  height: 335px;
   width: 100%;
   background-image: url('./images/NDGarde.jpg');        
   border-radius: 25px 25px 0 0;
