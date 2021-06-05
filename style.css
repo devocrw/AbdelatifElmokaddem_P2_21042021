@@ -71,7 +71,7 @@ p {
 
 .nav-links {
   display: flex;
-  margin-right: 3%;
+  /*margin-right: 3%;*/
 }
 
 .nav-links ul {
@@ -366,7 +366,7 @@ color: black;
     flex-direction: row;
     background-color: white;
     margin: 20px;
-   flex: 60%;
+   flex: auto;
    /* width: 100%;*/
 }
 
@@ -415,7 +415,7 @@ color: black;
 .populaire_boite_design img {
     border-radius: 15px 0 0 15px;
     padding: 0px;
-    margin:  5px;
+    margin:  auto;
     
 }
 
@@ -443,6 +443,7 @@ color: black;
 .activite_boite_contenu {
     flex: 18%;
     margin:5px;
+    /*margin: auto;*/
     
 }  
 
@@ -450,7 +451,7 @@ color: black;
   background-color: white;
     border-radius: 30px;
     box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 6px;
+    margin-bottom: 20px;
     width: 100%;
    
 }
@@ -459,10 +460,10 @@ color: black;
   padding-left: 15px;
 }
 
-.activite-text {
+/*.activite-text {
 padding: 1%;
 
-}
+}*/
 
 .activite_boites_colonne {
 
@@ -519,7 +520,7 @@ padding: 1%;
 }
 
 .activite_image_NDGarde {
-  height: 335px;
+  height: 402px;
   width: 100%;
   background-image: url('./images/NDGarde.jpg');        
   border-radius: 25px 25px 0 0;
@@ -529,7 +530,7 @@ padding: 1%;
 
 
 .activite_image_longchamp {
-	height: 350px;
+	height: 402px;
   width: 100%;
 	background-image: url('./images/Longchamp.jpg');        
 	border-radius: 25px 25px 0 0;
