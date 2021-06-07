@@ -4,6 +4,7 @@
 @media (min-device-width: 300px) and (max-device-width: 1435px) {
 
 
+
   /********** PARAMETRES GENERAUX **********/
 
   h2 {
@@ -19,6 +20,7 @@
 body {
 margin: 5px;
 width: 100%;
+margin: -1px;
 
 }
 
@@ -137,6 +139,7 @@ width: 100%;
 
 .containerheberg {
   flex: 100%;
+  margin: auto;
   
 }
 .containerheberg  {
@@ -176,6 +179,13 @@ width: 100%;
     margin: 2px;
 }
 
+
+.populaire_boites {
+
+
+}
+
+
  .populaire_text {
     
     /*margin: 30px;*/
@@ -200,6 +210,11 @@ width: 100%;
         
 }
    
+.activite_boites_colonne{
+
+  margin: auto;
+}
+
 .activite {
   align-items: center;
   width: 98%;
@@ -284,5 +299,17 @@ padding: 0px;
   
   width: 100%;
 }
+
+.activite_boites_colonne{
+
+  margin: auto;
+}
+
+.inscrire {
+   /* position: ABSOLUTE;*/
+    top: 29px;
+    right: 30px;
+}
+
 
 }
