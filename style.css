@@ -454,6 +454,9 @@ color: black;
     box-shadow:6px 6px 20px 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
     width: 100%;
+    cursor: pointer;
+    margin-block-start: auto;
+    overflow: hidden;
     
    
 }
@@ -464,7 +467,7 @@ color: black;
 }
 
 .activite-text {
-padding: 1%;
+/*padding: 1%;*/
 
 }
 
@@ -487,7 +490,7 @@ padding: 1%;
 } 
 
 .activite_image_port {
-  height: 500px;
+  height: 485px;
   background-image: url('./images/VieuxPort.jpg');
   width: 100%;
   border-radius: 25px 25px 0 0;
@@ -497,7 +500,7 @@ padding: 1%;
 
 
 .activite_image_pomegues {
-  height: 150px;
+  height: 215px;
   width: 100%;
   background-image: url('./images/Pomegues.jpg');     
   border-radius: 25px 25px 0 0;
@@ -507,7 +510,7 @@ padding: 1%;
 
 
 .activite_image_frioul {
-  height: 150px;
+  height: 215px;
   width: 100%;
   background-image: url('./images/Frioul.jpg');        
   border-radius: 25px 25px 0 0;
@@ -517,7 +520,7 @@ padding: 1%;
 
 
 .activite_image_calanque {
-  height: 500px;
+  height: 485px;
   background-image: url('./images/Calanques.jpg');
   width: 100%;
   border-radius: 25px 25px 0 0;
@@ -526,7 +529,7 @@ padding: 1%;
 }
 
 .activite_image_NDGarde {
-  height: 300px;
+  height: 215px;
   width: 100%;
   background-image: url('./images/NDGarde.jpg');        
   border-radius: 25px 25px 0 0;
@@ -536,7 +539,7 @@ padding: 1%;
 
 
 .activite_image_longchamp {
-	height: 300px;
+	height: 215px;
   width: 100%;
 	background-image: url('./images/Longchamp.jpg');        
 	border-radius: 25px 25px 0 0;
