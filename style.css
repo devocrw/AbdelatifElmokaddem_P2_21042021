@@ -114,6 +114,11 @@ input {
     width        : 60%;
     height       : 50px;
     font-size    : 16px;
+
+}
+
+.formtext {
+    color: black;
 }
 
 button {
@@ -129,11 +134,11 @@ button {
 }
 
 .iconemap {
-    font-size       : 25px;
+    font-size       : 20px;
     background-color: #f2f2f2;
     border-radius   : 1rem 0 0 1rem;
-    padding         : 10px 10px;
-    width           : 30px;
+    padding         : 15px 10px;
+    width           : 40px;
     text-align      : center;
 }
 
@@ -369,6 +374,14 @@ img {
     margin       : auto;
 }
 
+.populaire_text {
+    flex: 45%
+}
+
+.populaire_boites {
+   justify-content: space-evenly; 
+   width: 100%;
+}
 
 /********* Les activites *********/
 
@@ -476,6 +489,7 @@ img {
     background-size    : cover;
     background-position: center;
 }
+
 
 
 /********* Footer *********/
