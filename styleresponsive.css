@@ -134,15 +134,14 @@
     }
 
     .populaire_text {
-    
-   flex:  40%;
-}
+        flex: 40%;
+    }
 
-.populaire_boite{
- justify-content: space-evenly;
- width: 100%;
+    .populaire_boite {
+        justify-content: space-evenly;
+        width          : 100%;
 
-}
+    }
 
     /********** PARAMETRES LES ACTIVITES**********/
     .activite {
@@ -201,9 +200,8 @@
     }
 
     .footer-menu {
-        width    : auto;
-        
-        padding  : 20px;
+        width  : auto;
+        padding: 20px;
     }
 }
 
@@ -217,12 +215,12 @@
 
     .populaire_text {
         flex: 60%
-   }
-   
-   .populaire_boites {
-       justify-content: space-evenly; 
-       width: 100%;
-   }
+    }
+
+    .populaire_boites {
+        justify-content: space-evenly;
+        width          : 100%;
+    }
 
     .activite {
 

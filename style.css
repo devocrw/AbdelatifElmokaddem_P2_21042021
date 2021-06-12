@@ -211,14 +211,15 @@ button {
     color: black;
 }
 
-.fa-info{
+.fa-info {
     margin: 10px;
 }
+
 /******** la ligne information ********/
 
 .info {
     display: flex;
-    margin: 20px 5px 10px 5px;
+    margin : 20px 5px 10px 5px;
 }
 
 .fa-info {
@@ -379,8 +380,8 @@ img {
 }
 
 .populaire_boites {
-   justify-content: space-evenly; 
-   width: 100%;
+    justify-content: space-evenly;
+    width          : 100%;
 }
 
 /********* Les activites *********/
@@ -504,7 +505,7 @@ img {
     max-width: 100%;
     width    : 1500px;
     margin   : auto;
-    
+
 }
 
 .footer-menu {
